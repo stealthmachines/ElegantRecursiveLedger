@@ -118,71 +118,73 @@ public class Main {
 }
 ```
 
-Key Differences in Output:
+## Key Differences
 
-Feature	V3 Ledger	DNA64 Hybrid
-Ledger Hash	SHA-256 + XOR of operations	SHA-256 + XOR of operations
-Branching	Recursive	Recursive
-DNA64 Signature	❌ Not included	✅ Included (entropy, GC, Phi metrics)
-Use Case	Standard Git-like ledger	Cryptographic analytics and tamper-evidence
-Performance	Faster	Slightly heavier due to DNA64 computation
-Complete System 💡
+| Feature         | V3 Ledger                      | DNA64 Hybrid                                      |
+|-----------------|--------------------------------|--------------------------------------------------|
+| Ledger Hash     | SHA-256 + XOR of operations    | SHA-256 + XOR of operations                     |
+| Branching       | Recursive                      | Recursive                                        |
+| DNA64 Signature | ❌ Not included                | ✅ Included (entropy, GC, Phi metrics)          |
+| Use Case        | Standard Git-like ledger       | Cryptographic analytics and tamper-evidence    |
+| Performance     | Faster                         | Slightly heavier due to DNA64 computation      |
 
-Decentralized Collaboration – Multiple contributors across branches.
+---
 
-Auditable Event Sourcing – Complete tamper-evident history.
+## Complete System 💡
 
-Content Management – Parallel branches for updates before merging.
+- **Decentralized Collaboration** – Multiple contributors across branches.  
+- **Auditable Event Sourcing** – Complete tamper-evident history.  
+- **Content Management** – Parallel branches for updates before merging.  
+- **Holographic Analytics** – DNA64 sequences provide entropy and Phi-resonance metrics (DNA64 hybrid only).  
 
-Holographic Analytics – DNA64 sequences provide entropy and Phi-resonance metrics (DNA64 hybrid only).
+---
 
-Executive Summary
+## Executive Summary
 
-ElegantRecursiveLedger is an enterprise-grade, Git-like ledger suite, offering a choice between:
+ElegantRecursiveLedger is an **enterprise-grade, Git-like ledger suite**, offering a choice between:
 
-V3 ledger – Fast, standard branching/merging.
+- **V3 ledger** – Fast, standard branching/merging.  
+- **DNA64 hybrid ledger** – Adds ephemeral cryptographic signatures for advanced verification and analytics.  
 
-DNA64 hybrid ledger – Adds ephemeral cryptographic signatures for advanced verification and analytics.
+---
 
-How It Works
+## How It Works
 
-ElegantStatelessLedger – Copy-on-write ledger core.
+- **ElegantStatelessLedger** – Copy-on-write ledger core.  
+- **V3 Ledger or DNA64 Hybrid** – Manages multiple ledger nodes, branching, merges, and optionally DNA64 signatures.  
 
-V3 Ledger or DNA64 Hybrid – Manages multiple ledger nodes, branching, merges, and optionally DNA64 signatures.
+---
 
-Use Cases 💼
+## Use Cases 💼
 
-Standard branch/version control → V3 ledger
+- Standard branch/version control → **V3 ledger**  
+- Cryptographic research, tamper-evident analytics → **DNA64 hybrid**  
+- Decentralized workflows  
+- Secure multi-stage data pipelines  
 
-Cryptographic research, tamper-evident analytics → DNA64 hybrid
+---
 
-Decentralized workflows
+## Why It's Novel ✨
 
-Secure multi-stage data pipelines
+- Combines Git-like workflows with cryptographic integrity.  
+- Choice of classic or DNA64-enhanced ledger.  
+- Modern Java design with **records**, **sealed interfaces**, and DNA64 metrics.  
 
-Why It's Novel ✨
+---
 
-Combines Git-like workflows with cryptographic integrity.
+## Why It's Reliable 🔒
 
-Choice of classic or DNA64-enhanced ledger.
+- Immutable core prevents corruption.  
+- SHA-256 + optional DNA64 ensures tamper-proof entries.  
+- Thread-safe with read-write locks.  
+- Copy-on-write ensures atomic, predictable operations.  
 
-Modern Java design with records, sealed interfaces, and DNA64 metrics.
+---
 
-Why It's Reliable 🔒
+### 🌟 Summary
 
-Immutable core prevents corruption.
+ElegantRecursiveLedger provides a **flexible ledger suite**:
 
-SHA-256 + optional DNA64 ensures tamper-proof entries.
-
-Thread-safe with read-write locks.
-
-Copy-on-write ensures atomic, predictable operations.
-
-🌟 Summary
-
-ElegantRecursiveLedger provides a flexible ledger suite:
-
-Use V3 for fast, standard branching workflows.
-
-Use DNA64 hybrid for cryptographic verification, analytics, and holographic signatures.
+- Use **V3** for fast, standard branching workflows.  
+- Use **DNA64 hybrid** for cryptographic verification, analytics, and holographic signatures.  
 Both share the same recursive architecture, immutable core, and branch/merge capabilities.
