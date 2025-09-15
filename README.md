@@ -1,5 +1,7 @@
 # ElegantRecursiveLedger
 
+https://zchg.org/t/elegantrecursiveledger-v3/852/1
+
 **ElegantRecursiveLedger Suite** – Git-like branching ledger with cryptographic verification, now with an optional DNA64 hybrid version.
 
 This suite provides **immutable, version-controlled ledgers** designed for collaborative workflows with tamper-evident verification. The system includes two primary scripts:
